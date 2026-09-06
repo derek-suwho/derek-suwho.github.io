@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Derek Su monogram</title>
+  <rect width="64" height="64" fill="#f4f2ec"/>
+  <rect x="5" y="5" width="54" height="54" fill="none" stroke="#171714" stroke-width="2"/>
+  <text x="32" y="40" text-anchor="middle" font-family="monospace" font-size="24" font-weight="700" fill="#b13a24">DS</text>
+</svg>

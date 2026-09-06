@@ -1,0 +1,17 @@
+{
+  "name": "Derek Su — Portfolio",
+  "short_name": "Derek Su",
+  "description": "Product-minded technical builder studying EECS at UC Berkeley.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f2ec",
+  "theme_color": "#f4f2ec",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
