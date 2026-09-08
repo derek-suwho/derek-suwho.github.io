@@ -3,121 +3,76 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A public, read-only snapshot of Derek Su's active projects and next milestones.">
-  <meta name="theme-color" content="#11110f">
-  <meta name="color-scheme" content="dark">
-  <meta property="og:title" content="Derek Su — Project Fieldboard">
-  <meta property="og:description" content="A public, read-only snapshot of active projects, discovery work, paused initiatives, and shipped work.">
+  <meta name="description" content="Separate public project boards for Derek Su's active, discovery, paused, and live work.">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="color-scheme" content="light">
+  <meta property="og:title" content="Derek Su — Project boards">
+  <meta property="og:description" content="A public directory of separate read-only project boards.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://derek-suwho.github.io/kanban/">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Derek Su — Project Fieldboard">
-  <meta name="twitter:description" content="A public, read-only snapshot of Derek Su's project portfolio.">
+  <meta name="twitter:title" content="Derek Su — Project boards">
+  <meta name="twitter:description" content="Separate read-only boards for each public project.">
   <link rel="canonical" href="https://derek-suwho.github.io/kanban/">
   <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
-  <title>Derek Su — Project Fieldboard</title>
+  <title>Derek Su — Project boards</title>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to project board</a>
-
-  <header class="topbar">
-    <a class="identity" href="../" aria-label="Return to Derek Su's portfolio">
-      <span class="monogram" aria-hidden="true">DS</span>
-      <span>Derek Su</span>
-    </a>
-    <a class="back-link" href="../">Portfolio <span aria-hidden="true">↗</span></a>
+  <a class="skip-link" href="#boards">Skip to project boards</a>
+  <header class="workspace-bar">
+    <nav aria-label="Breadcrumb"><a href="../">Derek Su</a><span aria-hidden="true">/</span><strong>Projects</strong></nav>
+    <span class="read-only">Read-only</span>
   </header>
 
-  <main id="main" tabindex="-1">
-    <section class="hero" aria-labelledby="page-title">
-      <div>
-        <p class="eyebrow">PUBLIC PROJECT SNAPSHOT · 2026-09-07</p>
-        <h1 id="page-title">Project<br>fieldboard.</h1>
-      </div>
-      <div class="hero-copy">
-        <p>A concise view of what is moving, what is being validated, what is paused, and what has shipped.</p>
-        <p class="disclosure">Read-only public snapshot. Detailed plans, research, and the editable Hermes board remain private.</p>
-      </div>
+  <main>
+    <div class="cover cover-directory" aria-hidden="true"></div>
+    <section class="page-heading directory-heading" aria-labelledby="page-title">
+      <div class="page-icon icon-directory">▦</div>
+      <p class="state-label">PUBLIC WORKSPACE</p>
+      <h1 id="page-title">Project boards</h1>
+      <p class="page-summary">Each project has its own task flow. Choose a board to see what is not started, in progress, under review, blocked, or done.</p>
     </section>
 
-    <section class="summary" aria-label="Project summary">
-      <div><strong>01</strong><span>Active</span></div>
-      <div><strong>01</strong><span>Discovery</span></div>
-      <div><strong>01</strong><span>Paused</span></div>
-      <div><strong>01</strong><span>Live</span></div>
-    </section>
+    <nav class="view-tabs" aria-label="Project views">
+      <span class="active-tab">▦ Board directory</span>
+      <a href="../">↗ Portfolio</a>
+    </nav>
 
-    <section class="board" aria-label="Project Kanban board">
-      <section class="lane lane-active" aria-labelledby="active-heading">
-        <header>
-          <h2 id="active-heading">Active</h2>
-          <span>01</span>
-        </header>
-        <article class="card">
-          <p class="card-index">P–01 · PERFORMANCE CREATIVE</p>
-          <h3>AI Video Ad Studio</h3>
-          <p>Validating a software-focused creative service by producing a personalized spec ad before asking for a sale.</p>
-          <dl>
-            <div><dt>Now</dt><dd>First proof-of-concept in production</dd></div>
-            <div><dt>Next</dt><dd>Review quality, production time, and revision needs</dd></div>
-          </dl>
-        </article>
-      </section>
-
-      <section class="lane lane-discovery" aria-labelledby="discovery-heading">
-        <header>
-          <h2 id="discovery-heading">Discovery</h2>
-          <span>01</span>
-        </header>
-        <article class="card">
-          <p class="card-index">P–02 · CREATOR RESEARCH</p>
-          <h3>Creator Origins</h3>
-          <p>Exploring a product that helps aspiring creators study how established creators' public content evolved over time.</p>
-          <dl>
-            <div><dt>Now</dt><dd>Demand hypothesis documented</dd></div>
-            <div><dt>Next</dt><dd>Interview aspiring creators and test the core promise</dd></div>
-          </dl>
-        </article>
-      </section>
-
-      <section class="lane lane-paused" aria-labelledby="paused-heading">
-        <header>
-          <h2 id="paused-heading">Paused</h2>
-          <span>01</span>
-        </header>
-        <article class="card">
-          <p class="card-index">P–03 · COMMERCE RESEARCH</p>
-          <h3>Ecommerce</h3>
-          <p>Prior market and product research is preserved while the direction remains intentionally paused.</p>
-          <dl>
-            <div><dt>Now</dt><dd>No active execution</dd></div>
-            <div><dt>Next</dt><dd>Resume only after a deliberate direction decision</dd></div>
-          </dl>
-        </article>
-      </section>
-
-      <section class="lane lane-live" aria-labelledby="live-heading">
-        <header>
-          <h2 id="live-heading">Live</h2>
-          <span>01</span>
-        </header>
-        <article class="card">
-          <p class="card-index">P–04 · RECRUITING</p>
-          <h3>Personal Portfolio</h3>
-          <p>A recruiting-first portfolio presenting product judgment and engineering execution through defensible evidence.</p>
-          <dl>
-            <div><dt>Now</dt><dd>Published and production-verified</dd></div>
-            <div><dt>Next</dt><dd>Use in applications; maintain when evidence changes</dd></div>
-          </dl>
-          <a class="card-link" href="../">View portfolio <span aria-hidden="true">→</span></a>
-        </article>
-      </section>
+    <section id="boards" class="board-directory" aria-label="Available project boards">
+      <a class="directory-card" href="ai-video-ad-studio/">
+        <span class="directory-icon icon-blue">▶</span>
+        <span class="status-pill pill-blue">Active</span>
+        <h2>AI Video Ad Studio</h2>
+        <p>Spec-ad production, prospect research, offer design, and validation.</p>
+        <span class="open-board">Open board →</span>
+      </a>
+      <a class="directory-card" href="creator-origins/">
+        <span class="directory-icon icon-yellow">◫</span>
+        <span class="status-pill pill-yellow">Discovery</span>
+        <h2>Creator Origins</h2>
+        <p>Demand validation for a creator-evolution research product.</p>
+        <span class="open-board">Open board →</span>
+      </a>
+      <a class="directory-card" href="ecommerce/">
+        <span class="directory-icon icon-orange">◇</span>
+        <span class="status-pill pill-orange">Paused</span>
+        <h2>Ecommerce</h2>
+        <p>Preserved product research with execution intentionally paused.</p>
+        <span class="open-board">Open board →</span>
+      </a>
+      <a class="directory-card" href="personal-portfolio/">
+        <span class="directory-icon icon-green">DS</span>
+        <span class="status-pill pill-green">Live</span>
+        <h2>Personal Portfolio</h2>
+        <p>Public recruiting portfolio, privacy controls, and release quality.</p>
+        <span class="open-board">Open board →</span>
+      </a>
     </section>
 
     <footer>
-      <p>Snapshot generated from Derek's private project system.</p>
-      <p>Last reviewed 2026-09-07 · Read-only</p>
+      <p>Public snapshots · editable Hermes boards remain private.</p>
+      <a href="../">Return to portfolio</a>
     </footer>
   </main>
 </body>
